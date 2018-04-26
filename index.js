@@ -24,9 +24,7 @@ function currentLine(katzDeliLine) {
   
  if (totalLine < 1) {
    return "The Line is currently empty."
- } 
- while (totalLine > 0) {
-   
+ } else for(i = 0, l = totalLine; )
  }
  
 }
