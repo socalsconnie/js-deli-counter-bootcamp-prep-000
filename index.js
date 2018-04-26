@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
   var totalLine = katzDeliLine.lenth;
   
   
- if (katzDeliLine.lenth < 1) {
+ if (totalLine < 1) {
    return "The line is currently empty.";
  }
  
