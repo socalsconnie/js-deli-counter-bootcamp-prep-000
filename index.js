@@ -32,7 +32,7 @@ function currentLine(katzDeliLine) {
    peopleInLine.push(`${i+1}. ${katzDeliLine[i]}`)
  }
  
- return peopleInLine.join()
+ return 'The line is currently ${peopleInLine.join()
  
  }
  
