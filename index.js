@@ -20,11 +20,14 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
   var totalLine = katzDeliLine.lenth;
-  var peopleInLine = katzDeliLine.lenth;
+  
   
  if (totalLine < 1) {
    return "The Line is currently empty."
- } else for(i = 0, l = totalLine; )
+ } else for(i = 0, l = totalLine; i < l; i++) {
+   var peopleInLine = [];
+   
+ }
  }
  
 }
