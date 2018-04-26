@@ -19,13 +19,15 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  if (katzDeliLine.length < 1) {
+  const lineLength = katzDeliLine.length;
+  
+  if (lineLength < 1) {
    return "The line is currently empty.";
  }
  
  const peopleInLine = [];
  
- for(let i = 0, l = katzDeliLine.length; i < l; i++) {
+ for(let i = 0, l = lineLength; i < l; i++) {
    peopleInLine.push(`${i+1}. ${katzDeliLine[i]}`)
  }
  
