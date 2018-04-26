@@ -26,10 +26,13 @@ function currentLine(katzDeliLine) {
    return "The Line is currently empty."
  }
  
+ var peopleInLine = [];
+ 
  for(i = 0, l = totalLine; i < l; i++) {
-   var peopleInLine = [];
    peopleInLine.push(`${i+1}. ${katzDeliLine[i]}`)
  }
+ 
+ return peopleInLine.join()
  
  }
  
