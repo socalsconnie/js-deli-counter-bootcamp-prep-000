@@ -23,10 +23,10 @@ function currentLine(katzDeliLine) {
   
   
  if (totalLine < 1) {
-   return "The Line is currently empty."
+   return "The line is currently empty.";
  }
  
- var peopleInLine = [];
+ const peopleInLine = [];
  
  for(i = 0, l = totalLine; i < l; i++) {
    peopleInLine.push(`${i+1}. ${katzDeliLine[i]}`)
