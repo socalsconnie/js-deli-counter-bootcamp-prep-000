@@ -28,7 +28,7 @@ function currentLine(katzDeliLine) {
  
  const peopleInLine = [];
  
- for(i = 0, l = totalLine; i < l; i++) {
+ for(let i = 0, l = totalLine; i < l; i++) {
    peopleInLine.push(`${i+1}. ${katzDeliLine[i]}`)
  }
  
